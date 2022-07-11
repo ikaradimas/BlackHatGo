@@ -9,4 +9,7 @@
 .tcp_server:
 	go build -o bin/tcp_proxy cmd/tcp_proxy/main.go
 
-all: .rude_scanner .echo_server .tcp_server
+.command_proxy:
+	go build -o bin/command_proxy cmd/command_proxy/main.go
+
+all: .rude_scanner .echo_server .tcp_server .command_proxy
