@@ -13,4 +13,7 @@
 .shodan:
 	go build -o bin/shodan cmd/shodan/main.go
 
-all: .rude_scanner .echo_server .tcp_server .command_proxy .shodan
+.metasploit:
+	go build -o bin/metasploit cmd/metasploit/main.go
+
+all: .rude_scanner .echo_server .tcp_server .command_proxy .shodan .metasploit
