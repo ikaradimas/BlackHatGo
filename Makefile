@@ -16,4 +16,7 @@
 .metasploit:
 	go build -o bin/metasploit cmd/metasploit/main.go
 
-all: .rude_scanner .echo_server .tcp_server .command_proxy .shodan .metasploit
+.bing_scrape:
+	go build -o bin/bing_scrape cmd/bing_scrape/main.go
+
+all: .rude_scanner .echo_server .tcp_server .command_proxy .shodan .metasploit .bing_scrape
