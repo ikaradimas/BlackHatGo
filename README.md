@@ -20,6 +20,11 @@ Run `make` and you 're set. You 'll get a bunch of executables under `bin/`.
 * `command_proxy`: Pretty basic TCP server: Fires up a shell and gives remote access to anyone. Don't fuck around in production with this.
 * `shodan`: A simple command to search for a host in [shodan.io](https://shodan.io) and return results.
 * `metasploit`: A simple command to demonstrate how to interact with Metasploit's Meterpreter, assuming you 've managed to compromise a machine somewhere.
+* `bing_scrape`: Scrapes bing for a given expression and Office document type, then tries to extract metadata from it.
+* `simple_http_server`: Demonstrates how to write a simple http server
+* `middleware_example`: Demonstrates hand-crafting middleware
+* `negroni_example`: Demonstrates use of the `negroni` middleware package together with the `mux` package to create a more sophisticated http server with a middleware chain
+* `html_template_example`: Demonstrates the built-in html template functionality in Go
 
 ## Prerequisites
 
