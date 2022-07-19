@@ -25,6 +25,9 @@
 .middleware_example:
 	go build -o bin/middleware_example cmd/middleware_example/main.go
 
+.negroni_example:
+	go build -o bin/negroni_example cmd/negroni_example/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -33,5 +36,6 @@ all: .rude_scanner \
 	 .metasploit \
 	 .bing_scrape \
 	 .simple_http_server \
-	 .middleware_example
+	 .middleware_example \
+	 .negroni_example
 	 
