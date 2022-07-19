@@ -19,4 +19,19 @@
 .bing_scrape:
 	go build -o bin/bing_scrape cmd/bing_scrape/main.go
 
-all: .rude_scanner .echo_server .tcp_server .command_proxy .shodan .metasploit .bing_scrape
+.simple_http_server:
+	go build -o bin/simple_http_server cmd/simple_http_server/main.go
+
+.middleware_example:
+	go build -o bin/middleware_example cmd/middleware_example/main.go
+
+all: .rude_scanner \
+	 .echo_server \
+	 .tcp_server \
+	 .command_proxy \
+	 .shodan \
+	 .metasploit \
+	 .bing_scrape \
+	 .simple_http_server \
+	 .middleware_example
+	 
