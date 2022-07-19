@@ -28,6 +28,9 @@
 .negroni_example:
 	go build -o bin/negroni_example cmd/negroni_example/main.go
 
+.html_template_example:
+	go build -o bin/html_template_example cmd/html_template_example/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -37,5 +40,6 @@ all: .rude_scanner \
 	 .bing_scrape \
 	 .simple_http_server \
 	 .middleware_example \
-	 .negroni_example
+	 .negroni_example \
+	 .html_template_example
 	 
