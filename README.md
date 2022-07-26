@@ -25,6 +25,7 @@ Run `make` and you 're set. You 'll get a bunch of executables under `bin/`.
 * `middleware_example`: Demonstrates hand-crafting middleware
 * `negroni_example`: Demonstrates use of the `negroni` middleware package together with the `mux` package to create a more sophisticated http server with a middleware chain
 * `html_template_example`: Demonstrates the built-in html template functionality in Go
+* `credentials_harvester`: A demonstration of how to create a credentials harvester in Go
 
 ## Prerequisites
 
@@ -49,3 +50,10 @@ Run `make` and you 're set. You 'll get a bunch of executables under `bin/`.
        $ export MSFHOST=10.0.1.6:55552
        $ export MSFPASS=s3cr3t
        ```
+
+* To execute the roundcube server (to obtain fresh copies the files for the credentials harvester), you can:
+
+```
+docker run --rm -it -p 80:80 -h 127.0.0.1 robbertkl/roundcube
+```
+

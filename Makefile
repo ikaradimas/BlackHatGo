@@ -31,6 +31,9 @@
 .html_template_example:
 	go build -o bin/html_template_example cmd/html_template_example/main.go
 
+.credential_harvester:
+	go build -o bin/credential_harvester cmd/credential_harvester/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -41,5 +44,6 @@ all: .rude_scanner \
 	 .simple_http_server \
 	 .middleware_example \
 	 .negroni_example \
-	 .html_template_example
+	 .html_template_example \
+	 .credential_harvester
 	 
