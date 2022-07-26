@@ -27,6 +27,7 @@ Run `make` and you 're set. You 'll get a bunch of executables under `bin/`.
 * `html_template_example`: Demonstrates the built-in html template functionality in Go
 * `credentials_harvester`: A demonstration of how to create a credentials harvester in Go
 * `websocket_keylogger`: A simple example of how to keylog user strokes in a webpage using web sockets.
+* `serve` (own): A simple utility to serve a directory statically.
 
 ## Prerequisites
 

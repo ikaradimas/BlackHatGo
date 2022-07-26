@@ -37,6 +37,9 @@
 .websocket_keylogger:
 	go build -o bin/websocket_keylogger cmd/websocket_keylogger/main.go
 
+.serve:
+	go build -o bin/serve cmd/serve/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -49,5 +52,6 @@ all: .rude_scanner \
 	 .negroni_example \
 	 .html_template_example \
 	 .credential_harvester \
-	 .websocket_keylogger
+	 .websocket_keylogger \
+	 .serve
 	 
