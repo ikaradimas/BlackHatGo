@@ -34,6 +34,9 @@
 .credential_harvester:
 	go build -o bin/credential_harvester cmd/credential_harvester/main.go
 
+.websocket_keylogger:
+	go build -o bin/websocket_keylogger cmd/websocket_keylogger/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -45,5 +48,6 @@ all: .rude_scanner \
 	 .middleware_example \
 	 .negroni_example \
 	 .html_template_example \
-	 .credential_harvester
+	 .credential_harvester \
+	 .websocket_keylogger
 	 

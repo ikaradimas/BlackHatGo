@@ -7,6 +7,7 @@ require (
 	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/golang/protobuf v1.3.1 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
+	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/urfave/negroni v1.0.0 // indirect
 	golang.org/x/net v0.0.0-20210916014120-12bc252f5db8 // indirect

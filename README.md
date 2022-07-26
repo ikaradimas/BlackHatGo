@@ -26,6 +26,7 @@ Run `make` and you 're set. You 'll get a bunch of executables under `bin/`.
 * `negroni_example`: Demonstrates use of the `negroni` middleware package together with the `mux` package to create a more sophisticated http server with a middleware chain
 * `html_template_example`: Demonstrates the built-in html template functionality in Go
 * `credentials_harvester`: A demonstration of how to create a credentials harvester in Go
+* `websocket_keylogger`: A simple example of how to keylog user strokes in a webpage using web sockets.
 
 ## Prerequisites
 
