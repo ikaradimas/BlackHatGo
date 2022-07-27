@@ -46,6 +46,9 @@
 .guessdns:
 	go build -o bin/guessdns cmd/guessdns/main.go
 
+.simple_dns_server:
+	go build -o bin/simple_dns_server cmd/simple_dns_server/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -61,5 +64,6 @@ all: .rude_scanner \
 	 .websocket_keylogger \
 	 .serve \
 	 .fqdn \
-	 .guessdns
+	 .guessdns \
+	 .simple_dns_server
 	 

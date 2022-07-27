@@ -30,6 +30,7 @@ Run `make` and you 're set. You 'll get a bunch of executables under `bin/`.
 * `serve` (own): A simple utility to serve a directory statically.
 * `fqdn` (own): A DNS Type A lookup utility.
 * `guessdns` (kinda own): A utility to fetch subdomains from DNS records.
+* `simple_dns_server`: An example of a simple DNS server resolving all queries to "127.0.0.1".
 
 ## Prerequisites
 
