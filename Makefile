@@ -40,6 +40,9 @@
 .serve:
 	go build -o bin/serve cmd/serve/main.go
 
+.fqdn:
+	go build -o bin/fqdn cmd/fqdn/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -53,5 +56,6 @@ all: .rude_scanner \
 	 .html_template_example \
 	 .credential_harvester \
 	 .websocket_keylogger \
-	 .serve
+	 .serve \
+	 .fqdn
 	 
