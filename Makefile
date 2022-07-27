@@ -43,6 +43,9 @@
 .fqdn:
 	go build -o bin/fqdn cmd/fqdn/main.go
 
+.guessdns:
+	go build -o bin/guessdns cmd/guessdns/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -57,5 +60,6 @@ all: .rude_scanner \
 	 .credential_harvester \
 	 .websocket_keylogger \
 	 .serve \
-	 .fqdn
+	 .fqdn \
+	 .guessdns
 	 

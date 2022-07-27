@@ -29,6 +29,7 @@ Run `make` and you 're set. You 'll get a bunch of executables under `bin/`.
 * `websocket_keylogger`: A simple example of how to keylog user strokes in a webpage using web sockets.
 * `serve` (own): A simple utility to serve a directory statically.
 * `fqdn` (own): A DNS Type A lookup utility.
+* `guessdns` (kinda own): A utility to fetch subdomains from DNS records.
 
 ## Prerequisites
 

@@ -5,9 +5,13 @@ go 1.18
 require (
 	github.com/PuerkitoBio/goquery v1.8.0 // indirect
 	github.com/andybalholm/cascadia v1.3.1 // indirect
+	github.com/briandowns/spinner v1.18.1 // indirect
+	github.com/fatih/color v1.7.0 // indirect
 	github.com/golang/protobuf v1.3.1 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/mattn/go-colorable v0.1.2 // indirect
+	github.com/mattn/go-isatty v0.0.8 // indirect
 	github.com/miekg/dns v1.1.50 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/urfave/negroni v1.0.0 // indirect

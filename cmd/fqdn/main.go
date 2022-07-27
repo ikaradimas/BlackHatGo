@@ -14,7 +14,7 @@ var (
 
 func init() {
 	flag.StringVar(&search, "s", "example.com", "Search string")
-	flag.StringVar(&hostAndPort, "h", "8.8.8.8:53", "DNS host")
+	flag.StringVar(&hostAndPort, "h", "8.8.8.8:53", "DNS host and port")
 	flag.Parse()
 }
 
