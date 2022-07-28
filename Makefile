@@ -49,6 +49,15 @@
 .simple_dns_server:
 	go build -o bin/simple_dns_server cmd/simple_dns_server/main.go
 
+.mongo_example:
+	go build -o bin/mongo_example cmd/mongo_example/main.go	
+
+.mysql_example:
+	go build -o bin/mysql_example cmd/mysql_example/main.go	
+
+.postgres_example:
+	go build -o bin/postgres_example cmd/postgres_example/main.go	
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -65,5 +74,8 @@ all: .rude_scanner \
 	 .serve \
 	 .fqdn \
 	 .guessdns \
-	 .simple_dns_server
+	 .simple_dns_server \
+	 .mongo_example \
+	 .mysql_example \
+	 .postgres_example
 	 
