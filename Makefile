@@ -58,6 +58,9 @@
 .postgres_example:
 	go build -o bin/postgres_example cmd/postgres_example/main.go	
 
+.mongo_miner:
+	go build -o bin/mongo_miner cmd/mongo_miner/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -77,5 +80,5 @@ all: .rude_scanner \
 	 .simple_dns_server \
 	 .mongo_example \
 	 .mysql_example \
-	 .postgres_example
-	 
+	 .postgres_example \
+	 .mongo_miner	 
