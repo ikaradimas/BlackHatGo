@@ -67,6 +67,9 @@
 .fs_scanner:
 	go build -o bin/fs_scanner cmd/fs_scanner/main.go
 
+.find_network_devices:
+	go build -o bin/find_network_devices cmd/find_network_devices/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -89,4 +92,5 @@ all: .rude_scanner \
 	 .postgres_example \
 	 .mongo_miner \
 	 .mysql_miner \
-	 .fs_scanner
+	 .fs_scanner \
+	 .find_network_devices
