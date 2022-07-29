@@ -61,6 +61,9 @@
 .mongo_miner:
 	go build -o bin/mongo_miner cmd/mongo_miner/main.go
 
+.mysql_miner:
+	go build -o bin/mysql_miner cmd/mysql_miner/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -81,4 +84,5 @@ all: .rude_scanner \
 	 .mongo_example \
 	 .mysql_example \
 	 .postgres_example \
-	 .mongo_miner	 
+	 .mongo_miner \
+	 .mysql_miner
