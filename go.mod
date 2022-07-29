@@ -20,6 +20,7 @@ require (
 	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/golang/protobuf v1.3.1 // indirect
+	github.com/google/gopacket v1.1.19 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mattn/go-isatty v0.0.8 // indirect
