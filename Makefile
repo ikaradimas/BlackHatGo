@@ -73,6 +73,10 @@
 .simple_bpf_filter:
 	go build -o bin/simple_bpf_filter cmd/simple_bpf_filter/main.go
 
+.capture_ftp_credentials:
+	go build -o bin/capture_ftp_credentials cmd/capture_ftp_credentials/main.go
+
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -97,4 +101,5 @@ all: .rude_scanner \
 	 .mysql_miner \
 	 .fs_scanner \
 	 .find_network_devices \
-	 .simple_bpf_filter
+	 .simple_bpf_filter \
+	 .capture_ftp_credentials

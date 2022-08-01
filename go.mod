@@ -6,6 +6,7 @@ require (
 	github.com/PuerkitoBio/goquery v1.8.0
 	github.com/briandowns/spinner v1.18.1
 	github.com/go-sql-driver/mysql v1.6.0
+	github.com/google/gopacket v1.1.19
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/miekg/dns v1.1.50
@@ -20,7 +21,6 @@ require (
 	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/golang/protobuf v1.3.1 // indirect
-	github.com/google/gopacket v1.1.19 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mattn/go-isatty v0.0.8 // indirect
