@@ -70,6 +70,9 @@
 .find_network_devices:
 	go build -o bin/find_network_devices cmd/find_network_devices/main.go
 
+.simple_bpf_filter:
+	go build -o bin/simple_bpf_filter cmd/simple_bpf_filter/main.go
+
 all: .rude_scanner \
 	 .echo_server \
 	 .tcp_server \
@@ -93,4 +96,5 @@ all: .rude_scanner \
 	 .mongo_miner \
 	 .mysql_miner \
 	 .fs_scanner \
-	 .find_network_devices
+	 .find_network_devices \
+	 .simple_bpf_filter
