@@ -76,6 +76,8 @@
 .capture_ftp_credentials:
 	go build -o bin/capture_ftp_credentials cmd/capture_ftp_credentials/main.go
 
+.packet_filtering_port_scanner:
+	go build -o bin/packet_filtering_port_scanner cmd/packet_filtering_port_scanner/main.go
 
 all: .rude_scanner \
 	 .echo_server \
@@ -102,4 +104,5 @@ all: .rude_scanner \
 	 .fs_scanner \
 	 .find_network_devices \
 	 .simple_bpf_filter \
-	 .capture_ftp_credentials
+	 .capture_ftp_credentials \
+	 .packet_filtering_port_scanner
